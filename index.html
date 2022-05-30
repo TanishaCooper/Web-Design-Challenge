@@ -47,12 +47,20 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-7 col-md-12">
-                <div class="box">
-                    <h3 class="title">LATITUDE VS. CLOUDINESS</h3>
+                <div class="box" style="padding-bottom: 20px;">
+                    <h3 class="title">SUMMARY: WEATHER PLOTS <br> (LATITUDE VS. X)</h3>
                     <hr>
-                    <img src="../Web-Design-Challenge/Resources/assets/images/Fig3.png" class="vizualization rounded float-left" alt="City Latitude vs Cloudiness Graph">
-                    <p>No correlation exists between latitude and cloudiness. A variety of measurements of cloudiness can be found
-                    regardless of latitude.<br><br><br><br><br><br></p>
+                    <img src="Resources/assets/images/Fig1.png" class="vizualization rounded float-left" alt="City Latitude vs Max Temperature Graph">
+                    <p> The purpose of this project was to analyze how weather across 500+ cities across the world
+                      changes as you get closer to the equator. To accomplish this analysis, OpenWeatherMap API was
+                      utilized to assemble the dataset to create a representative model of weather across world cities.</p>
+                      <br>
+                    <p> Matplotlib was used to build a series of plots to showcase the relationships regarding several variables
+                      of weather vs. latitude. Relationships analyzed included: Temperature (F) vs. Latitude, Humidity (%) vs. Latitude,
+                      Cloudiness (%) vs. Latitude, and Wind Speed (mph) vs. Latitude.</p>
+                      <br>
+                    <p> Data and visualizations are are provided as part of the analysis, including explanations and descriptions
+                      of trends and correlations.</p>
                 </div>
             </div>
             <div class="col-lg-5 col-md-12">
@@ -64,13 +72,13 @@
                             <div class="col-6">
                                 <div class="title">Latitude vs. Max Temperature</div>
                                 <a href="visualizations/temp.html" target="_blank">
-                                  <img class="panel" src="../Web-Design-Challenge/Resources/assets/images/Fig1.png" alt="City Latitude vs Max Temperature Graph">
+                                <img class="panel" src="Resources/assets/images/Fig1.png" alt="City Latitude vs Max Temperature Graph">
                                 </a>
                             </div>
                             <div class="col-6">
                                 <div class="title">Latitude vs. Humidity</div>
                                 <a href="visualizations/humidity.html" target="_blank">
-                                    <img class="panel" src="../Web-Design-Challenge/Resources/assets/images/Fig2.png" alt="City Latitude vs Humidity Graph">
+                                <img class="panel" src="Resources/assets/images/Fig2.png" alt="City Latitude vs Humidity Graph">
                                 </a>
                             </div>
                         </div>
@@ -78,13 +86,14 @@
                             <div class="col-6">
                                 <div class="title">Latitude vs. Cloudiness</div>
                                 <a href="visualizations/cloudiness.html" target="_blank">
-                                    <img class="panel" src="../Web-Design-Challenge/Resources/assets/images/Fig3.png" alt="City Latitude vs Cloudiness Graph">
+                                <img class="panel" src="Resources/assets/images/Fig3.png" alt="City Latitude vs Cloudiness Graph">
                                 </a>
+                                <!-- <div class="title">vs. Cloudiness</div> -->
                             </div>
                             <div class="col-6">
                                 <div class="title">Latitude vs. Wind Speed</div>
                                 <a href="visualizations/windspeed.html" target="_blank">
-                                    <img class="panel" src="../Web-Design-Challenge/Resources/assets/images/Fig4.png" alt="City Latitude vs Wind Speed Graph">
+                                    <img class="panel" src="Resources/assets/images/Fig4.png" alt="City Latitude vs Wind Speed Graph">
                                 </a>
                             </div>
                         </div>
@@ -93,6 +102,7 @@
             </div>
         </div>
     </div>
-    <footer>Cloudiness - Tanisha Cooper</footer>
+    <footer> Web Design Challenge - Tanisha Cooper </footer>
 </body>
 </html>
+
